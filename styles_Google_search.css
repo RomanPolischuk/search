@@ -1,8 +1,10 @@
-body {
+html, body {
     display: flex;
+    
     flex-direction: column;
     align-items:stretch;
-    height:100%;
+    height:auto;
+    
 }
 .search_text {
     border-radius:   10em;
@@ -32,11 +34,15 @@ body {
 }
 .button {
     display: block;
-    
+    box-sizing:border-box;
     margin-left: auto;
     margin-right: auto;
 }
 .footer {
+    position:absolute;
+    padding: 5px;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
-    align-self:flex-end;
-}
+    
+} 
